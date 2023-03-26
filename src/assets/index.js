@@ -10,6 +10,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import kubernetes from "./tech/kubernetes.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,6 +22,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import reactquery from "./tech/reactquery.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +32,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import facebook from "./facebook.svg";
+import twitter from "./twitter.svg";
+import instagram from "./instagram.svg";
+import linkedin from "./linkedin.svg";
 
 export {
   logo,
@@ -42,6 +49,8 @@ export {
   close,
   css,
   docker,
+  reactquery,
+  kubernetes,
   figma,
   git,
   html,
@@ -61,4 +70,8 @@ export {
   jobit,
   tripguide,
   loclogo,
+  facebook,
+  linkedin,
+  instagram,
+  twitter,
 };

@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  facebook,
+  instagram,
+  twitter,
+  linkedin,
+  kubernetes,
+  reactquery,
 } from "../assets";
 
 export const navLinks = [
@@ -37,6 +43,29 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: instagram,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    icon: facebook,
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-3",
+    icon: twitter,
+    link: "https://www.twitter.com/",
+  },
+  {
+    id: "social-media-4",
+    icon: linkedin,
+    link: "https://www.linkedin.com/",
   },
 ];
 
@@ -81,8 +110,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "React query",
+    icon: reactquery,
   },
   {
     name: "Tailwind CSS",
@@ -96,10 +125,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -111,6 +140,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "kubernetes",
+    icon: kubernetes,
   },
 ];
 
